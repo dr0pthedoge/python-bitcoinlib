@@ -20,14 +20,13 @@ __version__ = '0.7.1-SNAPSHOT'
 
 class MainParams(bitcoin.core.CoreMainParams):
     MESSAGE_START = b'\xf9\xbe\xb4\xd9'
-    DEFAULT_PORT = 8333
-    RPC_PORT = 8332
-    DNS_SEEDS = (('bitcoin.sipa.be', 'seed.bitcoin.sipa.be'),
-                 ('bluematt.me', 'dnsseed.bluematt.me'),
-                 ('dashjr.org', 'dnsseed.bitcoin.dashjr.org'),
-                 ('bitcoinstats.com', 'seed.bitcoinstats.com'),
-                 ('xf2.org', 'bitseed.xf2.org'),
-                 ('bitcoin.jonasschnelli.ch', 'seed.bitcoin.jonasschnelli.ch'))
+    DEFAULT_PORT = 9333
+    RPC_PORT = 9332
+    DNS_SEEDS = (('litecointools.com', 'dnsseed.litecointools.com'),
+                 ('litecoinpool.org', 'dnsseed.litecoinpool.org'),
+                 ('xurious.com', 'dnsseed.ltc.xurious.com'),
+                 ('koin-project.com', 'dnsseed.koin-project.com'),
+                 ('weminemnc.com', 'dnsseed.weminemnc.com'))
     BASE58_PREFIXES = {'PUBKEY_ADDR':0,
                        'SCRIPT_ADDR':5,
                        'SECRET_KEY' :128}
