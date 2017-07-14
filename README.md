@@ -1,4 +1,6 @@
 # python-bitcoinlib
+This is a litecoin fork of python-bitcoinlib, donations are appreciated but not required :)
+1mCYTKZcBgNi4JjKDPyofwpk7JcyD1sXg
 
 This Python2/3 library provides an easy interface to the bitcoin data
 structures and protocol. The approach is low-level and "ground up", with a
@@ -11,7 +13,7 @@ focus on providing tools to manipulate the internals of how Bitcoin works.
 
     sudo apt-get install libssl-dev
 
-The RPC interface, bitcoin.rpc, is designed to work with Bitcoin Core v0.13.0
+The RPC interface, bitcore.rpc, is designed to work with Bitcoin Core v0.13.0
 Older versions may work but there do exist some incompatibilities.
 
 
