@@ -27,9 +27,9 @@ class MainParams(bitcoin.core.CoreMainParams):
                  ('xurious.com', 'dnsseed.ltc.xurious.com'),
                  ('koin-project.com', 'dnsseed.koin-project.com'),
                  ('weminemnc.com', 'dnsseed.weminemnc.com'))
-    BASE58_PREFIXES = {'PUBKEY_ADDR':0,
+    BASE58_PREFIXES = {'PUBKEY_ADDR':48,
                        'SCRIPT_ADDR':5,
-                       'SECRET_KEY' :128}
+                       'SECRET_KEY' :176}
 
 class TestNetParams(bitcoin.core.CoreTestNetParams):
     MESSAGE_START = b'\x0b\x11\x09\x07'
